@@ -37,13 +37,13 @@ class Config(object):
     API_ID = os.environ.get("API_ID", "22606849")
     API_HASH = os.environ.get("API_HASH", "ef85493cd32eadcb5309b5957d8d1b86")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6773470262:AAFTwMuxwtHt3q-aa--opcOF3b9QC9NGhIg") 
-
+    
     # premium account string session required 😢 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","meowtaro")     
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://meow:meow@meow.a6bo1.mongodb.net/?retryWrites=true&w=majority&appName=meow")
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
