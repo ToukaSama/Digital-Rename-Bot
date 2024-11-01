@@ -1,5 +1,5 @@
 # Use the official Python image
-FROM python:3.9-slim-buster
+FROM 5hojib/vegapunk:latest
 
 # Set the working directory in the container
 WORKDIR /app
